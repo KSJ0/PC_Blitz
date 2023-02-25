@@ -1,2 +1,2 @@
 # KodeGo-Projects
-WorkSpaceProjects
+MiniProject-1

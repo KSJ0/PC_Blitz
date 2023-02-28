@@ -15,8 +15,7 @@
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
+- Mobile Friendly or Responsive Design
 - Fullscreen mode
 - Cross platform
 

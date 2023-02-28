@@ -1,7 +1,4 @@
-# KodeGo-Projects
 # Mini Project-1
-
-
 
 
 ## Group Authors
@@ -10,9 +7,6 @@
 - [@EKyle Christian]
 - [@Kevyn]
 - [@Lowell Payda]
-
-
-
 
 
 

@@ -21,7 +21,7 @@
 - Cross platform
 
 
-![Logo](https://raw.githubusercontent.com/emuyano/KodeGo-Projects/main/assets/images/logo.png)
+![Logo](https://raw.githubusercontent.com/emuyano/KodeGo-Projects/main/assets/images/logo.jpg)
 
 
 ## Screenshots

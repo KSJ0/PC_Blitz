@@ -25,4 +25,5 @@
 
 
 ## Screenshots
-https://raw.githubusercontent.com/emuyano/KodeGo-Projects/main/assets/images/template_preview.jpg
+![App Screenshot](https://raw.githubusercontent.com/emuyano/KodeGo-Projects/main/assets/images/template_preview.jpg)
+

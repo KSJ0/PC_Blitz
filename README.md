@@ -16,7 +16,6 @@
 ## Features
 
 - Mobile Friendly or Responsive Design
-- Fullscreen mode
 - Cross platform
 
 

@@ -1,0 +1,49 @@
+.navbar {
+    margin: 0 auto;
+    color: white;
+    height: 40px;
+}
+
+.col-md-12 {
+    background-color: black;
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.action_btn:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+h6 {
+    font-size: small;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.enq {
+    background-color: #f3f3f3;
+    padding-top: 5px;
+    margin-left: 5px;
+}

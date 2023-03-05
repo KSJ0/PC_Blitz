@@ -44,7 +44,7 @@ hr {
 }
 
 .srch {
-    width: 40%;
+    width: 50%;
     float: right;
     clear: right;
     margin-top: -5%;
@@ -67,11 +67,8 @@ hr {
     outline: none;
     color: #9dbfaf;
 
-}
-
-.search:focus {
+}.search:focus {
     color: black;
-    box-shadow: 0 0 5px ;
 }
 
 .search-btn {

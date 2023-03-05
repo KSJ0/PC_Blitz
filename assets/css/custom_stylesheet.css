@@ -204,7 +204,7 @@ hr {
 .social-link > li > a {
 	width: 40px;
 	height: 40px;
-	line-height: 40px !important;
+	line-height: 35px !important;
 	text-align: center;
 }
 .social-link > li > a > i {
@@ -212,14 +212,22 @@ hr {
 	color: #fff;
 }
 .social-link > li:hover > a {
-	background: #fed700 ;
+	background:#787878;
 }
 /*Social Link Color Variations*/
 .twitter {
-	background: #40c1df;
+	background: #28adff;	
+}
+.twitter-icon{
+	max-width: 80%;
+	max-height: 80%;
 }
 .rss {
 	background: #eb8314;
+}
+.rss-icon{
+	max-width: 80%;
+	max-height: 80%;
 }
 .google-plus {
 	background: #ed3c32;
@@ -227,11 +235,23 @@ hr {
 .facebook {
 	background: #3c5b9b;
 }
+.facebook-icon{
+	max-width: 100%;
+	max-height: 100%;
+}
 .youtube {
-	background: #c72982;
+	background: #c60f0f;
+}
+.youtube-icon{
+	max-width: 90%;
+	max-height: 90%;
 }
 .instagram {
-	background: #c619b8;
+	background:#e95950;
+}
+.instagram-icon{
+	max-width: 90%;
+	max-height: 90%;
 }
 /*Footer Newsletter*/
 .footer-newsletter {

@@ -43,23 +43,93 @@ hr {
     margin-left: 5px;
 }
 
+.srch {
+    width: 40%;
+    float: right;
+    clear: right;
+    margin-top: -5%;
+    margin-right: 26%;
+
+}
+
+.search-box {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.search {
+    width: 100%;
+    border: 3px solid ;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    outline: none;
+    color: #9dbfaf;
+
+}
+
+.search:focus {
+    color: black;
+    box-shadow: 0 0 5px ;
+}
+
+.search-btn {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #FE0000;
+    background: #FE0000;
+    border-radius: 0;
+}
+
 .cart {
     float: right;
     clear: right;
-    margin-top: -4%;
-    margin-right: 15%;
+    margin-top: -5%;
+    margin-right: 14%;
+    background-color: #FE0000;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
 }
 .cart:hover {
-background-color: gray;
-border: 1px solid black;
+    scale: 1.05;
+    color: #fff;
+}
+
+.cart:active {
+    scale: 0.95;
 }
 
 .fav {
     float: right;
     clear: right;
-    margin-top: -4%;
+    margin-top: -5%;
     margin-right: 20%;
+    background-color: #F3F3F3;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
 }
+
+.fav:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+.fav:active {
+    scale: 0.95;
+}
+
 .footer-logo-wrap {
 	border-bottom: 1px dashed #e1e1e1;
 	

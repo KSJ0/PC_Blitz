@@ -97,7 +97,6 @@ hr {
     cursor: pointer;
     transition: scale 0.2 ease;
 }
-<<<<<<< HEAD
 .cart:hover {
     scale: 1.05;
     color: #fff;
@@ -106,8 +105,6 @@ hr {
 .cart:active {
     scale: 0.95;
 }
-=======
->>>>>>> 43d0ac9b645e9492d1def8ca2aef7a379d2569ba
 
 .fav {
     float: right;

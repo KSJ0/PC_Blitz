@@ -49,6 +49,10 @@ hr {
     margin-top: -4%;
     margin-right: 15%;
 }
+.cart:hover {
+background-color: gray;
+border: 1px solid black;
+}
 
 .fav {
     float: right;

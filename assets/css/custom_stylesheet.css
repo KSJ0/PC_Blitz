@@ -28,10 +28,6 @@ li {
     list-style: none;
 }
 
-li:hover {
-    color: #FE0000;
-}
-
 h6 {
     font-size: small;
 }

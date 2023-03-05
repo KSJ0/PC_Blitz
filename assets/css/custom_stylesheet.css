@@ -13,14 +13,16 @@
     gap: 1.5rem;
 }
 
+link:hover {
+    color: #FE0000;
+}
+
 a {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
-    color: #FE0000;
-}
+
 
 .logo {
     margin-left: 30px;

@@ -67,11 +67,8 @@ hr {
     outline: none;
     color: #9dbfaf;
 
-}
-
-.search:focus {
+}.search:focus {
     color: black;
-    box-shadow: 0 0 5px ;
 }
 
 .search-btn {

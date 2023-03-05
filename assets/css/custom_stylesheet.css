@@ -46,7 +46,8 @@ hr {
 .enq {
     background-color: #f3f3f3;
     padding-top: 5px;
-    margin-left: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 .srch {

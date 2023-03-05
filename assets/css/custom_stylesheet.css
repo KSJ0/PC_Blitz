@@ -13,11 +13,6 @@
     gap: 1.5rem;
 }
 
-.action_btn:hover {
-    scale: 1.05;
-    color: #fff;
-}
-
 a {
     text-decoration: none;
     color: white;
@@ -46,4 +41,18 @@ hr {
     background-color: #f3f3f3;
     padding-top: 5px;
     margin-left: 5px;
+}
+
+.cart {
+    float: right;
+    clear: right;
+    margin-top: -4%;
+    margin-right: 15%;
+}
+
+.fav {
+    float: right;
+    clear: right;
+    margin-top: -4%;
+    margin-right: 20%;
 }

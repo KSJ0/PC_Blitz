@@ -18,6 +18,10 @@ a {
     color: white;
 }
 
+a:hover {
+    color: #FE0000;
+}
+
 .logo {
     margin-left: 30px;
     margin-top: 5px;

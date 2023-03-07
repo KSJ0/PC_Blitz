@@ -1,0 +1,262 @@
+.header-top {
+	background: #f8f9f9;
+	border-bottom: 1px solid #e1e1e1;
+	height: 30px;
+}
+/*Phone Wrap*/
+.phone-wrap > li > span {
+	font-size: 12px;
+	color: #242424;
+}
+.phone-wrap > li > a {
+	font-size: 12px;
+	color: #242424;
+}
+/*Header Top Menu*/
+.ht-menu {
+	display: flex;
+	justify-content: flex-end;
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms--display: flex;
+}
+.ht-menu > li {
+	list-style: none;
+	padding: 0 15px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	align-self: stretch;
+}
+.ht-menu > li::after {
+	content: "";
+	position: absolute;
+	background: #2424;
+	height: 15px;
+	width: 1px;
+	right: 0;
+	top: 5px;
+}
+.ht-menu > li:last-child::after {
+	content: unset;
+}
+.ht-menu > li:last-child {
+	padding-right: 0;
+}
+.ht-menu > li span {
+	font-size: 12px;
+}
+/*Header Top Currency*/
+.currency-selector-wrapper, .language-selector-wrapper {
+	margin-right: 5px;
+}
+.ht-menu > li > span i {
+	font-size: 10px;
+	font-weight: 400;
+	color: #a4a4a4;
+	display: inline-block;
+	position: relative;
+}
+.ht-setting-trigger, .ht-currency-trigger, .ht-language-trigger {
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.ht-currency-trigger:hover, .ht-language-trigger:hover {
+	color: #fed700;
+}
+.ht-currency-trigger:hover i, .ht-language-trigger:hover i{
+	color: #fed700;
+}
+.ht-setting, .ht-currency, .ht-language {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	z-index: 9;
+	display: none;
+}
+.setting, .currency, .language {
+		border-top: 2px solid #fed700;
+		padding: 20px 20px 10px;
+		background: #ffffff;
+		text-align: left;
+		-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+		transition: all 0.3s ease-in-out;
+}
+.setting {
+		min-width: 150px;
+}
+.currency, .language {
+		min-width: 120px;
+}
+.currency li {
+		padding: 0 10px;
+		color: #636363;
+		line-height: 22px;
+		font-size: 12px;
+}
+.ht-setting-list > li {
+		transition: all 0.3s ease-in-out;
+}
+.ht-setting-list > li.active {
+	background: #fed700;
+}
+.ht-setting-list > li:hover {
+		background: #fed700;
+}
+.ht-setting-list > li > a {
+	padding: 0 10px;
+	display: block;
+	font-size: 12px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+.ht-setting-list > li:hover > a {
+	color: #ffffff;
+}
+.ht-setting-list > li.active > a {
+	color: #fff;
+}
+.ht-setting-list > li > a > img {
+	padding-right: 5px;
+}
+.logo img{
+	height: 80px;
+}
+.header-middle {
+	padding: 30px;
+}
+.hm-searchbox {
+	display: flex;
+	position: relative;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #e1e1e1;
+	min-width: 638px;
+	height: 45px;
+	float: left;
+}
+.hm-searchbox .nice-select.select-search-category {
+	width: auto;
+	line-height: 43px;
+	height: 43px;
+	margin: 0;
+	border: 0;
+	padding: 0 28px 0 25px;
+	color: #242424;
+	font-size: 13px;
+	font-family: 'Rubik',sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+.select-search-category ul.list {
+	height: 440px;
+	overflow-y: auto;
+	overscroll-behavior-x: none;
+}
+.hm-searchbox .current::after {
+	content: "";
+	position: absolute;
+	display: block;
+	height: 22px;
+	width: 1px;
+	background: #e1e1e1;
+	top: 10px;
+	right: -10px;
+	font-size: 13px;
+}
+.hm-searchbox .nice-select.select-search-category::before {
+		right: 30px;
+		top: 25px;
+		color: #7e7e7e;
+}
+.hm-searchbox input {
+		font-size: 13px;
+		color: #a5a5a5;
+		height: 45px;
+		background: transparent;
+		border: none;
+		width: 100%;
+		padding: 0 60px 0 33px;
+}
+.header-middle-right {
+		display: flex;
+		justify-content: flex-end;
+}
+/*Header Middle Wishlist*/
+.hm-wishlist {
+	float: left;
+	margin-right: 25px;
+	position: relative;
+}
+.hm-wishlist > a {
+	border: 1px solid #e1e1e1;
+	font-size: 20px;
+	color: #242424;
+	width: 45px;
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+	display: block;
+	transition: all 0.3s ease-in-out;
+}
+.hm-wishlist > a:hover {
+	border-color: #fed700;
+	color: #fed700;
+}
+.hm-minicart {
+		display: inline-block;
+		position: relative;
+}
+.hm-minicart-trigger {
+		border-radius: 2px;
+		background: #e80f0f;
+		color: #fff;
+		height: 45px;
+		cursor: pointer;
+		display: block;
+		position: relative;
+		padding: 0 15px 0 55px;
+}
+.item-icon::before {
+		content: "\f291";
+		position: absolute;
+		font-family: fontawesome;
+		left: 10px;
+		top: 6px;
+		display: block;
+		font-size: 20px;
+}
+.item-text {
+		position: relative;
+		line-height: 45px;
+		font-weight: 500;
+}
+.item-text::before {
+		content: "";
+		position: absolute;
+		left: -10px;
+		height: 22px;
+		width: 1px;
+		background: rgba(255,255,255,.3);
+		top: -3px;
+}
+.cart-item-count {
+		position: absolute;
+		top: -25px;
+		left: -60px;
+		display: block;
+		overflow: hidden;
+		min-width: 26px;
+		line-height: 26px;
+		font-size: 12px;
+		font-weight: 700;
+		color: #fff;
+		background: #000;
+		text-align: center;
+		border-radius: 100%;
+}
+.wishlist-item-count {
+		top: -10px;
+		left: -10px;
+}
